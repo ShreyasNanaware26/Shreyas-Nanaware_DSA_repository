@@ -19,7 +19,7 @@ while(True):
 
 #Adding an if-elif-else statements chain based on the user input given
     if(user_input == 1):
-        user_input2 = int(input("Enter the number of elements you want to puch into the stack  : "))
+        user_input2 = int(input("Enter the number of elements you want to push into the stack  : "))
         if(user_input2 <= 0):
             print("The number of elements to be pushed into the stack should be at least 1!")
         for i in range(0,user_input2):  #Using a for loop to take multiple elements at one time from the user
