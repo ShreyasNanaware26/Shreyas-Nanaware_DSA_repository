@@ -46,6 +46,7 @@ while(True):
         for i in range(0,len(my_stack)): # Using for loops for displaying the elements of the stack after every operation
             print(my_stack[i])
         print("\n")
+        
     elif(user_input == 3):
         if(len(my_stack) == 0):
             print("The stack is empty! ")
@@ -55,6 +56,7 @@ while(True):
             for i in range(0,len(my_stack)): # Using for loops for displaying the elements of the stack after every operation
                 print(my_stack[i])
             print("\n")
+            
     elif(user_input == 4):
         user_input4 = input("Are you sure you want to exit the program ( Y / N ) : ")
         if(user_input4 == "Y" or user_input4 == "y"):
